@@ -1,0 +1,82 @@
+.content {
+  height: 100vh;
+}
+@media screen and (max-width: 599px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 900px) {
+  .content {
+    display: flex;
+    width: 100%;
+  }
+}
+
+.navigation, .product, .news {
+  height: 200px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 600px) {
+  .prod {
+    display: flex;
+  }
+}
+@media screen and (min-width: 900px) {
+  .prod {
+    width: 66.6%;
+  }
+}
+
+.navigation {
+  background-color: rgb(229, 211, 231);
+}
+@media screen and (min-width: 600px) {
+  .navigation {
+    width: 50vw !important;
+  }
+}
+@media screen and (min-width: 900px) {
+  .navigation {
+    width: 100%;
+  }
+}
+
+.product {
+  background-color: rgb(240, 181, 247);
+}
+@media screen and (min-width: 600px) {
+  .product {
+    width: 50vw !important;
+  }
+}
+@media screen and (min-width: 900px) {
+  .product {
+    width: 100%;
+  }
+}
+
+.news {
+  background-color: rgb(213, 49, 231);
+}
+@media screen and (min-width: 900px) {
+  .news {
+    width: 33.3%;
+  }
+}
+
+span {
+  background-color: rgb(90, 65, 84);
+  padding: 4px;
+  border-radius: 4px;
+  text-transform: lowercase;
+  margin: auto;
+  color: #fff;
+}
+
+/*# sourceMappingURL=styles.css.map */

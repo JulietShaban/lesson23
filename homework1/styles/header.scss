@@ -1,0 +1,25 @@
+.header{
+   background-color: #006400;
+   display: flex;
+   }
+   nav{
+    margin-left: 3em;
+   }
+   .menu{
+    display: flex;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    height: 3em;
+}
+.menu__item{
+    display: flex;
+    flex-direction: column;
+    }
+    .menu__item-text{
+        width: 120px;
+        line-height: 3em;
+        color: white;
+        text-align: center;
+        
+        }

@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(244, 169, 229);
+  margin: 16px;
+}
+@media screen and (min-width: 600px) {
+  .square {
+    background-color: rgb(162, 126, 165);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .square {
+    background-color: rgb(78, 33, 118);
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,31 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #f4a9e5;
+  margin: 16px;
+}
+
+@media screen and (min-width: 600) {
+  .square {
+    background-color: #a27ea5;
+  }
+}
+/*# sourceMappingURL=index.css.map */
